@@ -219,7 +219,7 @@ margin: auto;
 .card .front {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: none;
   border: 1px solid #ddd;
@@ -231,13 +231,13 @@ margin: auto;
 
 .card .front img {
   border-radius: 100%;
-margin: auto;
-max-height: 190px;
-max-width: 190px;
+margin: 0 auto;
+/* max-height: 250px; */
+max-width: 250px;
 height: 100%;
 width: 100%;
-border: 2px solid #ddd;
-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+/* border: 2px solid #ddd; */
+/* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); */
 object-fit: cover;
 
 }
@@ -247,7 +247,7 @@ object-fit: cover;
   padding-bottom: 0rem;
   padding-top: 0rem;
   font-size: 1.8em;
-  margin: auto;
+  margin: 0 auto;
   color: rgb(0, 0, 70);
 }
 
