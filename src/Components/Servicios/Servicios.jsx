@@ -19,7 +19,7 @@ import vidente from "./imgserv/vidente.png";
 export default function Servicios() {
     return (
         <section id="Servicios">
-            <h2>Servicios</h2>
+            <h2 id="titleservicios">Servicios</h2>
 
         <div id="contenedorserv">
             <div id="miniservicio">
