@@ -23,8 +23,8 @@ function App() {
     <div className='App' >    
       <Header/>
       <Tarot/>
-      <Especialistas/>
       <Servicios/>
+      <Especialistas/>
       <ServicesFree/>
       <Testimonios/>
       <FooterModal/>
