@@ -7,11 +7,13 @@ import './App.css';
 // import { getNumbers } from '../src/redux/actions';
 
 import Header from '../src/Components/Header/Header';
-import Services from '../src/Components/Servicios/Servicios';
+import ServicesFree from './Components/Servicios/ServicesFree';
 import Especialistas from '../src/Components/Especialistas/Especialistas';
 // import Carousel from '../src/Components/Carousel/Carousel';
 import FooterModal from '../src/Components/Footer/Footer';
 import Tarot from '../src/Components/Servicios/Tarot';
+import Testimonios from './Components/Testimonios/Testimonios';
+import Servicios from './Components/Servicios/Servicios';
 
 function App() {
   
@@ -22,7 +24,9 @@ function App() {
       <Header/>
       <Tarot/>
       <Especialistas/>
-      <Services/>
+      <Servicios/>
+      <ServicesFree/>
+      <Testimonios/>
       <FooterModal/>
     </div>
 

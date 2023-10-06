@@ -1,0 +1,32 @@
+#content-testiominios{
+    display: flex;
+    margin: 0 auto 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#testimonio{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /* border-radius: 10%; */
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#p-test{
+    margin: 10px;
+}
+
+@media (max-width: 900px) {
+
+    #content-testiominios{
+        flex-direction: column;
+    }
+
+}

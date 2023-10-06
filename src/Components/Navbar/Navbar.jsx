@@ -37,9 +37,12 @@ export default function Navbar() {
           <a href="#tarot">
             <p>Tarot</p>
           </a>
-          {/* <a href="#masservicios">
-            <p>Más servicios</p>
-          </a> */}
+          <a href="#Servicios">
+            <p>Servicios</p>
+          </a>
+          <a href="#ServicesFree">
+            <p>Servicios gratuitos</p>
+          </a>
           <a href="#Especialistas">
             <p>Especialistas</p>
           </a> 

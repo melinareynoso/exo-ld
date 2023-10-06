@@ -309,6 +309,30 @@ color: rgb(0, 0, 70);
   font-family: Proxima Nova;
 }
 
+#contenedorserv{
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+#miniservicio{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  /* border-radius: 10%; */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#nameservice{
+  margin-bottom: 7px;
+}
 
 @media (min-width: 900px) and (max-width: 1200px) {
 
@@ -381,6 +405,10 @@ color: rgb(0, 0, 70);
 
   #price{
     padding-bottom:10px;
+  }
+
+  #contenedorserv{
+    grid-template-columns: repeat(2, 1fr);
   }
 
 }
