@@ -30,7 +30,7 @@ function Tarot() {
         <div id="container-btns">
           <div id="btn-price">
             <a
-              onclick={"return gtag_report_conversion('tel: 806499570');"}
+              onclick="return gtag_report_conversion('tel: 806499570');"
               className="btn-call"
               href="tel: 806499570"
               rel="noreferrer"
@@ -50,8 +50,7 @@ function Tarot() {
 
           <div id="btn-price">
             <a
-              onclick={"return gtag_report_conversion('https://tpvseguro.premiumnumbers.es/servicios/tpv/saldo/llamante/seguro/463/1082977/c777d0b26c9b22f967acfc0df16205bd88047700');"}
-
+              onclick="return gtag_report_conversion('https://tpvseguro.premiumnumbers.es/servicios/tpv/saldo/llamante/seguro/463/1082977/c777d0b26c9b22f967acfc0df16205bd88047700');"
               className="btn-call"
               href="https://tpvseguro.premiumnumbers.es/servicios/tpv/saldo/llamante/seguro/463/1082977/c777d0b26c9b22f967acfc0df16205bd88047700"
               rel="noreferrer"
